@@ -108,6 +108,14 @@ console.log( values );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/entries-in`][@stdlib/utils/entries-in]: return an array of an object's own and inherited enumerable property key-value pairs.
+-   [`@stdlib/utils/keys-in`][@stdlib/utils/keys-in]: return an array of an object's own and inherited enumerable property names.
+-   [`@stdlib/utils/values`][@stdlib/utils/values]: return an array of an object's own enumerable property values.
+
 </section>
 
 <!-- /.related -->
@@ -170,6 +178,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-values-in/main/LICENSE
 
 [spec-for-in]: http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.4
+
+<!-- <related-links> -->
+
+[@stdlib/utils/entries-in]: https://github.com/stdlib-js/utils-entries-in
+
+[@stdlib/utils/keys-in]: https://github.com/stdlib-js/utils-keys-in
+
+[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values
+
+<!-- </related-links> -->
 
 </section>
 
