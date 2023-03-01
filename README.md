@@ -24,14 +24,30 @@ limitations under the License.
 
 > Return an array of an object's own and inherited enumerable property values.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-values-in
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import objectValuesIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values-in@deno/mod.js';
+var objectValuesIn = require( '@stdlib/utils-values-in' );
 ```
 
 #### objectValuesIn( obj )
@@ -73,7 +89,7 @@ var values = objectValuesIn( obj );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectValuesIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values-in@deno/mod.js';
+var objectValuesIn = require( '@stdlib/utils-values-in' );
 
 function Foo() {
     this.beep = 'boop';
@@ -104,9 +120,9 @@ console.log( values );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/entries-in`][@stdlib/utils/entries-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property key-value pairs.</span>
--   <span class="package-name">[`@stdlib/utils/keys-in`][@stdlib/utils/keys-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property names.</span>
--   <span class="package-name">[`@stdlib/utils/values`][@stdlib/utils/values]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property values.</span>
+-   <span class="package-name">[`@stdlib/utils-entries-in`][@stdlib/utils/entries-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property key-value pairs.</span>
+-   <span class="package-name">[`@stdlib/utils-keys-in`][@stdlib/utils/keys-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property names.</span>
+-   <span class="package-name">[`@stdlib/utils-values`][@stdlib/utils/values]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property values.</span>
 
 </section>
 
@@ -121,7 +137,7 @@ console.log( values );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -185,11 +201,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/entries-in]: https://github.com/stdlib-js/utils-entries-in/tree/deno
+[@stdlib/utils/entries-in]: https://github.com/stdlib-js/utils-entries-in
 
-[@stdlib/utils/keys-in]: https://github.com/stdlib-js/utils-keys-in/tree/deno
+[@stdlib/utils/keys-in]: https://github.com/stdlib-js/utils-keys-in
 
-[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values/tree/deno
+[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values
 
 <!-- </related-links> -->
 
