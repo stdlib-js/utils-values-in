@@ -24,38 +24,30 @@ limitations under the License.
 
 > Return an array of an object's own and inherited enumerable property values.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-values-in
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-objectValuesIn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-values-in@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var objectValuesIn = require( 'path/to/vendor/umd/utils-values-in/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-values-in@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.objectValuesIn;
-})();
-</script>
+var objectValuesIn = require( '@stdlib/utils-values-in' );
 ```
 
 #### objectValuesIn( obj )
@@ -96,13 +88,8 @@ var values = objectValuesIn( obj );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-values-in@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectValuesIn = require( '@stdlib/utils-values-in' );
 
 function Foo() {
     this.beep = 'boop';
@@ -119,11 +106,6 @@ var values = objectValuesIn( obj );
 
 console.log( values );
 // e.g., => [ 'boop', {'b':'c'}, [ 'bar' ] ]
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -138,9 +120,9 @@ console.log( values );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/entries-in`][@stdlib/utils/entries-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property key-value pairs.</span>
--   <span class="package-name">[`@stdlib/utils/keys-in`][@stdlib/utils/keys-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property names.</span>
--   <span class="package-name">[`@stdlib/utils/values`][@stdlib/utils/values]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property values.</span>
+-   <span class="package-name">[`@stdlib/utils-entries-in`][@stdlib/utils/entries-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property key-value pairs.</span>
+-   <span class="package-name">[`@stdlib/utils-keys-in`][@stdlib/utils/keys-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property names.</span>
+-   <span class="package-name">[`@stdlib/utils-values`][@stdlib/utils/values]</span><span class="delimiter">: </span><span class="description">return an array of an object's own enumerable property values.</span>
 
 </section>
 
@@ -219,11 +201,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/entries-in]: https://github.com/stdlib-js/utils-entries-in/tree/umd
+[@stdlib/utils/entries-in]: https://github.com/stdlib-js/utils-entries-in
 
-[@stdlib/utils/keys-in]: https://github.com/stdlib-js/utils-keys-in/tree/umd
+[@stdlib/utils/keys-in]: https://github.com/stdlib-js/utils-keys-in
 
-[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values/tree/umd
+[@stdlib/utils/values]: https://github.com/stdlib-js/utils-values
 
 <!-- </related-links> -->
 
